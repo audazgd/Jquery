@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <button id='bold'>B</button>
+    <button id='italic'>I</button>
+    <button id='underline'>U</button>
+    <select id= "changingfont"> 
+        <option value="TimesNewRoman">TimesNewRoman</option>
+        <option value="Arial">Arial</option>
+        <option value="Calibri">Calibri</option>
+    </select>
+    <select id= "changingtextsize" onchange="changingtextsize()">
+        <option value="10pt">10</option>
+        <option value="11pt">11</option>
+        <option value="12pt">12</option>
+        <option value="13pt">13</option>
+    </select>
+    <select id= "changingtextcolour" onchange="changingtextcolour()">
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="red">Red</option>
+        <option value="black">Black</option>
+    </select>
+    <select id= "changingtextdisplay" onchange="changingtextdisplay()">
+        <option value="Justify">Justify</option>
+        <option value="Center">Center</option>
+        <option value="Left">Left</option>
+        <option value="Right">Right</option>
+    </select>
+    <p><textarea id="text">GoMyCode is a cool place</textarea>
+    </p>
+    </body>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</html>
